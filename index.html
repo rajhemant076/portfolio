@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
+</head>
+<body>
+    <header class="header" id="home">
+        <nav class="nav-bar">
+            <div id="my-portfolio">
+                <h1>MyPortfolio</h1>
+            </div>
+            <div class="hamburger" id="hamburger">
+                &#9776; <!-- Unicode for hamburger icon -->
+              </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home" class="active" >Home</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#cont">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-des">
+            <h2>Hello, I'm 
+                Hemant Raj
+            
+            
+            </h2>
+            <br/>
+            
+            <p>Aspiring <b><mark id="mark">Frontend Developer</mark></b> on a journey to build beautiful,  functional web experiences.  I’m currently exploring modern UI frameworks and sharpening my frontend skills   one project at a time.   </p> 
+        <br/> 
+    <button id="say-hello">Say Hello!</button>  
+        </div>
+      
+        
+       <!-- <div class="hero-img">
+        <img src="im.jpg" width="100%">
+       </div> -->
+    </section>
+    <section class="about-me" id="about-me">
+        <div class="about-img">
+            <img src="about3.jpg" width="100%">
+
+        </div>
+        
+        <div class="about-des">
+ <h2>About Me</h2>
+ 
+ <p>Hi! I’m a first-year student at NIT Patna and a passionate Frontend Developer. I love crafting clean, responsive websites that blend  functionality with modern   design.
+
+    Currently working with HTML, CSS, and JavaScript, and always exploring new technologies to expand my skill set. I'm especially interested in web development, UI/UX design,  and contributing to open-source projects.</p>
+        </div>
+        
+    </section>
+    <section class="skills" id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-des">
+            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+
+        </div>
+    </section>
+    <section class="contact" id="cont">
+        <h2>Contact Me</h2>
+        <div class="contact-des">
+            <div class="contact-links"> <a href="mailto:hemant.raj14012007@gmail.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="40" height="40">
+              </a>
+          
+              <!-- WhatsApp -->
+              <a href="https://wa.me/916203216211?text=Hi%2C%20I%20visited%20your%20portfolio!" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="40" height="40">
+              </a>
+          
+              <!-- Instagram -->
+              <a href="https://instagram.com/hemant_raj1401" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" width="40" height="40">
+              </a>
+          
+              <!-- GitHub -->
+              <a href="https://github.com/yourusername" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" width="40" height="40">
+              </a>
+            </div>
+            <div class="contact-forms">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" ><br/>
+                <label for="contact">Contact</label>
+                <input type="tel" id="contact" name="cotact"><br/>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"><br/>
+                
+                <label for="msg">Message</label>
+                <textarea id="msg" name="msg" rows="4" cols="50"></textarea><br/>
+                <input type="submit" value="Submit" id="submit">
+            </div>
+           
+        </div>
+        
+    </section>
+    <script src="app.js"></script>
+    
+    
+</body>
+</html>
